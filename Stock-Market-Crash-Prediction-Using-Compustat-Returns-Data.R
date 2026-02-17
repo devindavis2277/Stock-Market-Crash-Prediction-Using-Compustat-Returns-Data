@@ -7,7 +7,7 @@ library(pROC)
 library(ggplot2)
 
 # Load Data 
-mret <- read_sas("~/Desktop/mret7023.sas7bdat")
+mret <- read_sas("C:/Users/Davis/OneDrive/Desktop/mret7023.sas7bdat")
 
 # Handle Date 
 if ("DATE" %in% names(mret)) {
